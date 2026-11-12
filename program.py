@@ -1,4 +1,6 @@
 def calcular_area(poligono):
+    poligono = poligono.capitalize() # Comvierte "triangulo" a "Triangulo"
+
     if poligono == "Triangulo":
         base = float(input("Digite la base del triangulo: "))
         altura = float(input("Digite la altura del triangulo: "))
